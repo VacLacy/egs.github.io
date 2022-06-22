@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+
+.header__logo h1 {
+    font-size: 35px;
+    
+}
+
+.header__link li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header__link a {
+    font-size: 25px
+    
+}
+
+.header__link li:first-child {
+    margin-left: 0px;
+    
+}
+
+.header__social {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+
+.header__social-social li {
+    display: inline-block;
+    
+}
+
+.header__social-social i {
+    font-size: 40px;
+}
+
+.header__social-social i,
+.header__link a {
+    transition: 0.3s;
+}
+
+.header__social-social i:hover,
+.header__link a:hover {
+    opacity: 0.5;
+}
