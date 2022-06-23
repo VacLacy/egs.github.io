@@ -35,3 +35,15 @@
     color: #ff4747;
 }
 
+.footer__link {
+    display: flex;
+    align-items: center;
+}
+
+.footer__link li {
+    padding-bottom: 10px;
+}
+
+.footer__social-social i {
+    font-size: 25px;
+}

@@ -8,8 +8,10 @@
 }
 
 
-.header__logo h1 {
-    font-size: 35px;
+.header__logo img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
     
 }
 
