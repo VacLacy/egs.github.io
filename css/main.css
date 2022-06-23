@@ -1,6 +1,15 @@
+.main__form {
+    background-color: white;
+    margin-top: 25px;
+    padding: 25px 0;
+}
 
 .main form input {
     background: none;
+    border: 2px solid #ff4747;
+    border-radius: 4px 0 0 4px;
+
+
     font-size: 25px;
     width: 100%;
     margin-top: 10px;
@@ -13,6 +22,8 @@
     font-size: 25px;
     width: 100%;
     padding-left: 5px;
+    border: 2px solid #ff4747;
+    border-radius: 4px 0 0 4px;
 }
 
 .main form input:first-child {
@@ -24,16 +35,17 @@
     margin-top: 0px;
 }
 
-.main form button {
-    background: none;
-    font-size: 25px;
-    cursor: pointer;
-    margin-top: 10px; 
-}
+
 
 .main form button:hover {
     background: white;
     color: black;  
+}
+
+.main__plus {
+    background-color: white;
+    padding: 25px 0;
+    margin-top: 25px;
 }
 
 .main__plus p, li {
@@ -43,5 +55,20 @@
 .main__plus ul li {
     list-style-type: decimal;
     left: 0;
+}
+
+.main__malfunction-button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.main__malfunction-text div {
+    display: none
+}
+
+.main__malfunction-text .active {
+    display: block;
 }
 

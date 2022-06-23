@@ -3,6 +3,7 @@
 .footer a {
     background-color: black;
     color: white;
+    background-color: white;
 }
 
 .footer .container {
@@ -23,12 +24,14 @@
 }
 
 .footer a,
-.footer i {
-    transition: 0.3s;
+.footer i,
+.footer p,
+.footer li {
+    color: black;
 }
 
 .footer a:hover,
 .footer i:hover {
-    opacity: 0.5;
+    color: #ff4747;
 }
 
